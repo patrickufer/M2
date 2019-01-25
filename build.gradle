@@ -16,4 +16,5 @@ jar {
             "Class-Path": "../../lib/resources.jar"            
         )
     }
+    baseName 'M2'
 }
