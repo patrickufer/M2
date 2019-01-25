@@ -33,7 +33,7 @@ public class Person4 {
       //Person 4 put your implementation here
       String out = "";
       for (int i = 0; i < input.length; i++) {
-        out = out + input[i] + 1
+        out = out + input[i] + 1;
       }
       return out;
     }
