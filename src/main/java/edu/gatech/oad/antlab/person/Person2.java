@@ -1,4 +1,5 @@
 package edu.gatech.oad.antlab.person;
+import java.util.*;
 
 /**
  *  A simple class for person 2
@@ -36,7 +37,7 @@ public class Person2 {
         chars.add(c);
       }
       StringBuilder output = new StringBuilder(input.length());
-      while (chars.size > 0) {
+      while (chars.size() > 0) {
         int randomInt = (int) (Math.random() * chars.size());
         output.append(chars.remove(randomInt));
       }
